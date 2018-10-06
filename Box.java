@@ -1,4 +1,3 @@
-package prac;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,11 +5,11 @@ import java.util.Scanner;
 
 public class Box 
 {
-	Long length;
-	Long breadth;
-	Long height;
+	private Long length;
+	private Long breadth;
+	private Long height;
 	
-	public Box()
+	private  Box()
 	{
 		this.length = (long) 0;
 		this.breadth = (long) 0;
@@ -18,21 +17,21 @@ public class Box
 		
 	}
 	
-	public Box(Long l, Long b, Long h)
+	private  Box(Long l, Long b, Long h)
 	{
 		this.length = l;
 		this.breadth = b;
 		this.height = h;
 	}
 	
-	public Box(Long l)
+	private  Box(Long l)
 	{
 		this.length = l;
 		this.breadth = l;
 		this.height = l;
 	}
 	
-	public void Vol()
+	private  void Vol()
 	{
 		System.out.println(this.length*this.breadth*this.height);;
 	}
