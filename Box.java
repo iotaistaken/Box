@@ -1,4 +1,3 @@
-package prac;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,9 +5,9 @@ import java.util.Scanner;
 
 public class Box 
 {
-	Long length;
-	Long breadth;
-	Long height;
+	private Long length;
+	private Long breadth;
+	private Long height;
 	
 	public Box()
 	{
@@ -17,7 +16,20 @@ public class Box
 		this.height = (long) 0;
 		
 	}
+	private void setL(Long l)
+	{
+		this.length = l;
+	}
 	
+	private void setB(Long l)
+	{
+		this.breadth = l;
+	}
+	
+	private void setH(Long l)
+	{
+		this.height = l;
+	}
 	public Box(Long l, Long b, Long h)
 	{
 		this.length = l;
@@ -47,6 +59,7 @@ public class Box
 		obj.Vol();
 		obj2.Vol();
 		obj3.Vol();
+		System.out.println("Number of edges are " + 6);
 	}
 
 }
