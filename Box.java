@@ -16,6 +16,15 @@ public class Box
 		this.height = (long) 0;
 		
 	}
+	private void setL(Long l)
+	{
+		this.length = l;
+	}
+	
+	private void setB(Long l)
+	{
+		this.breadth = l;
+	}
 	
 	private  Box(Long l, Long b, Long h)
 	{
@@ -46,6 +55,7 @@ public class Box
 		obj.Vol();
 		obj2.Vol();
 		obj3.Vol();
+		System.out.println("Number of edges are " + 6);
 	}
 
 }
