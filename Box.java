@@ -9,7 +9,7 @@ public class Box
 	private Long breadth;
 	private Long height;
 	
-	public Box()
+	private  Box()
 	{
 		this.length = (long) 0;
 		this.breadth = (long) 0;
@@ -26,25 +26,21 @@ public class Box
 		this.breadth = l;
 	}
 	
-	private void setH(Long l)
-	{
-		this.height = l;
-	}
-	public Box(Long l, Long b, Long h)
+	private  Box(Long l, Long b, Long h)
 	{
 		this.length = l;
 		this.breadth = b;
 		this.height = h;
 	}
 	
-	public Box(Long l)
+	private  Box(Long l)
 	{
 		this.length = l;
 		this.breadth = l;
 		this.height = l;
 	}
 	
-	public void Vol()
+	private  void Vol()
 	{
 		System.out.println(this.length*this.breadth*this.height);;
 	}
