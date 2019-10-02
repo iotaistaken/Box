@@ -1,4 +1,5 @@
 import java.util.*;
+
 class Square
 {
 
@@ -12,17 +13,14 @@ class Square
   {
     return Math.pow(this.a,2);
   }
-
   public long Perimeter()
   {
     return 4*a;
   }
-
   public double Diagonal()
   {
     return Math.sqrt((a*a)+(a*a));
   }
-  
   public static void main(String[] args)
   {
     Scanner jk = new Scanner(System.in);
