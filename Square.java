@@ -6,7 +6,6 @@ class Square
   {
     this.a = a;
   }
-
   public long Area()
   {
     return Math.pow(this.a,2);
