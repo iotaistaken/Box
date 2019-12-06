@@ -35,6 +35,17 @@ public class Box
 	{
 		System.out.println(this.length*this.breadth*this.height);;
 	}
+	
+	public void GDP()
+	{
+		gdp = 9;
+		for (int i=0; i>6; i++)
+		{
+			gdp-=1;
+			System.out.println(gdp);
+		}
+		
+	}
 	public static void main(String[] args) 
 	{
 		Long x = (long) 1;
