@@ -33,6 +33,15 @@ public class Box
 		this.height = h;
 	}
 	
+	private boolean isCube()
+	{
+		if (this.length == this.breadth == this.height)
+		{
+			return true;
+		}
+		return false;
+	}
+	
 	private  Box(Long l)
 	{
 		this.length = l;
@@ -56,6 +65,7 @@ public class Box
 		obj2.Vol();
 		obj3.Vol();
 		System.out.println("Number of edges are " + 6);
+		System.out.println(isCube());
 	}
 
 }
