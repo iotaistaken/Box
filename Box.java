@@ -31,14 +31,6 @@ public class Box
 		this.height = l;
 	}
 	
-	private boolean isCube()
-	{
-		if (this.length == this.breadth == this.height)
-		{
-			return true;
-		}
-		return false;
-	}
 	private  void Vol()
 	{
 		System.out.println(this.length*this.breadth*this.height);;
